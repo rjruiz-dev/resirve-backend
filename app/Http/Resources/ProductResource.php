@@ -15,9 +15,10 @@ use Illuminate\Http\Resources\Json\JsonResource;
 class ProductResource extends JsonResource
 {
     /**
-     * Transform the resource into an array.
-     *
-     * @return array<string, mixed>
+     * Transformar el recurso en un array
+     * 
+     * @param Request $request
+     * @return array
      */
     public function toArray(Request $request): array
     {
